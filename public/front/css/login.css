@@ -1,0 +1,43 @@
+
+.login_con {
+
+    width: 450px;
+    height: 450px;
+    background-color: #B3CAFF;
+    border-radius: 5px;
+}
+
+.login_con .login_icon{
+    font-size: 50px;
+    background-color: white;
+    color:#2573DA;
+    border-radius: 50%;
+    padding: 18px;
+}
+
+.login_con .login_from input{
+    width: 62%;
+    height: 45px;
+    border:none;
+    outline: none;
+    margin: 10px auto auto auto;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-bottom: 4px;
+    background-color: transparent;
+    color:white;
+    border:1px solid var(--main-color);
+}
+.login_con .login_from input::placeholder{
+    color:var(--main-color);
+}
+.login_con .login_from a{
+    text-decoration: none;
+    color:black;
+}
+.login_con .login_from  .btn-primary{
+    background-color: var(--main-color);
+    width: 100px;
+    height: 40px;
+}
+

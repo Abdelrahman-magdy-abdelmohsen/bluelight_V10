@@ -1,0 +1,191 @@
+
+.box img{
+    width: 50%;
+    border: 1px solid black;
+}
+
+.product_imgs{
+    width: 200px;
+    height: 100px;
+}
+.product_imgs img{
+    margin: 5px;
+}
+.brand{
+    width: 70%;
+}
+.features{
+    width: 50%;
+
+}
+.price{
+    font-size: 22px;
+color:var(--red-color);
+}
+.features .feature_icon{
+    font-size: 25px;
+    color:var(--main-color)
+}
+.features p{
+    font-size: 13px;
+    color:var(--gray-color);
+}
+.add_cart_btn {
+     position: relative;
+     padding: 10px 20px;
+     background-color: var(--main-color);
+     border: none;
+     color: white;
+     cursor: pointer;
+     border-radius: 20px;
+     /* Add any other necessary styling */
+ }
+.add_cart_btn i {
+    position: absolute;
+    left: 10px; /* Adjust the icon's position */
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 8px; /* Adjust spacing between icon and text */
+}
+.share_icon{
+    padding: 13px;
+    border:1px solid var(--second-color);
+}
+.share_icon:hover{
+    transition: 0.5s;
+    background-color: var(--main-color);
+    color:var(--white-color);
+    cursor: pointer;
+}
+.quantity{
+    border: 0;
+    background-color: var(--main-color);
+}
+.quantity:focus{
+    outline: none;
+}
+input[type="number"].quantity:focus {
+    border-color: #2573da; /* Border color on focus */
+    box-shadow: 0 0 5px rgba(37, 115, 218, 0.5); /* Shadow on focus */
+}
+input[type="number"].quantity {
+  color:White;
+}
+
+.buy_btn{
+    background-color:var(--white-color);
+    border: 1px solid var(--second-color);
+    width: 150px;
+}
+.buy_btn:hover{
+    transition: 0.5s;
+    background-color: var(--main-color);
+    color:var(--white-color);
+}
+.stock{
+    color :green;
+    font-weight: bold;
+}
+.add_fav{
+   padding: 13px;
+    font-size: 22px;
+    color:var(--white-color);
+    background-color:var(--main-color) ;
+    cursor: pointer;
+}
+.add_fav:hover{
+    transition: 0.5s;
+
+}
+
+.deliver_icon{
+    color:var(--main-color);
+}
+.star_icon{
+    color:yellow;
+}
+.sold_by{
+    background-color: var(--white-color);
+    border-radius: 8px;
+    padding: 3px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+
+}
+.sold_by p{
+    margin: 0;
+}
+
+.sold_by span{
+    color:var(--main-color);
+}
+
+
+
+
+/* Optional: Adjust box styles as necessary */
+
+.card{
+    width: 300px;
+}
+.card-body{
+    background-color: #EAECEE;
+}
+.card-img-top{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+/* Styles for the swiper slide container */
+.swiper-slide {
+    margin-right: 10px; /* Adjust spacing between slides */
+    border-radius: 10px;
+    width: 1000px;
+}
+
+
+
+/* Ensure proper alignment of the images */
+.swiper-slide img {
+    width: 120px;
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Adjust styles for the brand section */
+.brand {
+    padding: 20px; /* Add padding for spacing */
+    text-align: center; /* Center align the content */
+    width: 100%;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+    background-color: var(--white-color);
+    position: relative;
+}
+
+/* Styles for Swiper container and navigation */
+.swiper-container-brands {
+    width: 100%;
+    height: 50px; /* Adjust the height as needed */
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Styles for navigation arrows */
+.swiper-button-prev,
+.swiper-button-next {
+    width: 30px;
+    height: 30px;
+    background-color: #9DC3E6;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.swiper-button-prev {
+    left: 10px;
+
+}
+
+.swiper-button-next {
+    right: 10px;
+}

@@ -1,0 +1,18 @@
+
+.title{
+background-color: var(--second-color);
+color:var(--white-color);
+
+}  .box{
+    width: 50%;
+    background-color: var(--main-color);
+    position: absolute;
+    top:190px;
+
+}
+   .box p{
+       color:var(--white-color);
+   }
+   .box h5{
+       color:var(--white-color);
+   }

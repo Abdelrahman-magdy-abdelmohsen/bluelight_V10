@@ -1,0 +1,15 @@
+:root{
+    --main-color:#2573da;
+    --second-color:#9DC3E6;
+    --white-color:white;
+    --gray-color:#8F8B97;
+    --red-color:red;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}

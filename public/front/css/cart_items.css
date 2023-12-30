@@ -1,0 +1,83 @@
+body{
+
+    background-color:#e5e6ea;
+}
+.con{
+    background-color: var(--white-color);
+    width:65%;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    margin: auto;
+}
+.cart_items {
+    /* Customize container style */
+}
+
+.title {
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+table {
+}
+table{
+    background-color: var(--main-color);
+}
+table thead th {
+    background-color: var(--main-color)!important; /* Change background color */
+    color: var(--white-color) !important; /* Change text color */
+    font-weight: bold; /* Apply bold font */
+    /* Add any other styles you need */
+
+}
+
+.img-thumbnail {
+    width: 75px;
+    height: 75px;
+}
+
+.quantity {
+    width: 50px;
+}
+
+.price {
+    /* Format price display */
+}
+
+.remove_item {
+    /* Style remove button */
+}
+
+.order_summary {
+    margin-top: 20px;
+}
+
+.order_summary div {
+    margin-bottom: 10px;
+}
+
+.total {
+    font-weight: bold;
+}
+.empty-cart-message{
+    width: 100%;
+    height: 600px
+}
+.empty-cart-message img{
+width: 300px;
+    height: 300px;
+}
+
+.btn-primary{
+    width: 200px;
+    height: 40px;
+}
+.remove_item{
+    text-decoration: none;
+    color:red;
+}
+.remove-icon{
+    text-align: center;
+font-size: 22px;
+}

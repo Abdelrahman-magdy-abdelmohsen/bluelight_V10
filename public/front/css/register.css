@@ -1,0 +1,72 @@
+
+.register_con {
+
+    width: 410px;
+    background-color: var(--main-color);
+    border-radius: 5px;
+}
+
+.register_con .register_icon{
+    font-size: 50px;
+    background-color: white;
+    color:#2573DA;
+    border-radius: 50%;
+    padding: 18px;
+}
+
+.register_con .register_from input{
+    width: 80%;
+    height: 40px;
+    border:none;
+    outline: none;
+    margin: 8px auto auto auto;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-bottom: 2px;
+    background-color:transparent;
+    border-bottom: 3px solid var(--white-color);
+
+}
+.register_con .register_from input::placeholder {
+    color:var(--white-color);
+}
+.register_con .register_from input:focus::placeholder {
+    /* Adjust the positioning of the placeholder when input is focused */
+    transform: translate(-10px, -7px); /* Move the placeholder 10px to the left and 5px up (adjust as needed) */
+    transition: transform 0.3s ease-in-out; /* Apply transition effect */
+}
+
+.register_con .register_from input:focus {
+    transition: 0.5s;
+    border-bottom: 3px solid green;
+
+}
+.register_con .register_from a{
+    text-decoration: none;
+    color:black;
+}
+
+
+/* Override Bootstrap button's :active state to prevent size change */
+/* Override Bootstrap button's size to prevent change on click */
+.btn-main {
+    width: 62%; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    background-color: var(--second-color);
+}
+
+.rakit {
+    width: 80%;
+    height: 20px;
+    border-radius: 5px;
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    margin: 4px auto auto auto;
+    line-height: 5px;
+}
+
+.error-text {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
